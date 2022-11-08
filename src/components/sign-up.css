@@ -1,0 +1,105 @@
+label {
+  color: white;
+}
+.radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1c1f;
+  width: 40vw;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(/assets/cinemadraft-background.png);
+  width: 60vw;
+  background-size: 60vw 100vh;
+}
+
+h1 {
+  color: white;
+}
+#img-size {
+  width: 30vw;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.signin {
+  color: red;
+}
+
+.text-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: white;
+}
+.create {
+  color: red;
+}
+#link {
+  font-weight: 10;
+  font-size: small;
+  color: #a3aab5;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #left {
+    display: none;
+    flex: 1;
+  }
+  #right {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-image: (/ assets/background-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  #main {
+    width: 100vw;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,26 @@
+.center-notfound {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.child-notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+#first-message {
+  font-size: xx-large;
+  color: white;
+}
+
+#second-message {
+  font-size: larger;
+  color: white;
+}

@@ -1,0 +1,270 @@
+.wrap-per {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(/assets/cinemadraft-bg.png);
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 70vw;
+  height: 70vh;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  font-size:large;
+  font-weight: bold;
+  justify-content: center;
+  color: white;
+}
+
+.states {
+  display: flex;
+  justify-content: space-around;
+
+  width: 22vw;
+}
+#button {
+  background: none;
+  border: none;
+  color: white;
+}
+#button:active,
+#button:focus {
+  outline: 0;
+font-size:large;
+  box-shadow: none !important;
+  font-weight: bold;
+}
+
+.contestdetail {
+  display: flex;
+  justify-content: space-around;
+  background-color: #272c2e;
+  color: white;
+border-bottom:0.1px solid white;
+}
+.contest-name {
+  font-weight: bold;
+}
+.status-upcoming {
+  font-size: small;
+  color: yellow;
+}
+.status-live {
+  font-size: small;
+  color: red;
+}
+.playersdetails {
+  display: flex;
+  flex-direction: row;
+}
+.starttimedetails {
+  display: flex;
+}
+.endtimedetails {
+  display: flex;
+}
+.prizemoneydetails {
+  display: flex;
+}
+.playersicon {
+  margin-right: 5px;
+}
+.starttimeicon {
+  margin-right: 5px;
+}
+.endtimeicon {
+  margin-right: 5px;
+}
+.prizemoneyicon {
+  margin-right: 5px;
+}
+.status-completed {
+  font-size: small;
+  color: green;
+}
+.rank {
+  font-size: small;
+  color: yellow;
+}
+.prize {
+  font-size: small;
+  color: yellow;
+}
+.players {
+  font-weight: 150;
+  font-size: smaller;
+}
+.start-time {
+  font-weight: 150;
+  font-size: smaller;
+}
+.end-time {
+  font-weight: 150;
+  font-size: smaller;
+}
+.prizemoney {
+  font-weight: 150;
+  font-size: smaller;
+}
+
+.contestdetail:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 1px 1px white;
+}
+.contest-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contest-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contest-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #head {
+    margin-right: 50px;
+  }
+  #main-headerid {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  #states-mob {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+  }
+
+  #contests-mob {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272c2e;
+    width: 100vw;
+    color: white;
+    border: 1px solid white;
+    border-width: thin;
+  }
+  #contestdetailid {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #head {
+    margin-right: 50px;
+  }
+  .status-completed {
+    margin-left: 10px;
+  }
+  .rank {
+    margin-left: 10px;
+  }
+  .prize {
+    margin-left: 10px;
+  }
+  .contest-name {
+    margin-left: 10px;
+  }
+  .status-upcoming {
+    margin-left: 10px;
+  }
+  .status-live {
+    margin-left: 10px;
+  }
+  #b {
+    font-size: small;
+  }
+  #main-headerid {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .contestslists {
+    font-size: small;
+  }
+  #states-mob {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+  }
+
+  .prizemoneyicon {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prizemoney {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .end-time {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .endtimeicon {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .start-time {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .starttimeicon {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .playersicon {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .players {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contests-mob {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272c2e;
+    width: 80vw;
+    color: white;
+    border: 1px solid white;
+    border-width: thin;
+  }
+  #contestdetailid {
+    margin-left: 10px;
+    padding: 2px;
+    margin-right: 10px;
+  }
+  .contest-center {
+    margin-right: 10px;
+  }
+}

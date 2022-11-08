@@ -1,0 +1,286 @@
+.allfather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p-arent {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.time-remain {
+  padding: 10px;
+}
+.baq {
+  height: 5vh;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+.game-name {
+  height: 5vh;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+
+.baq-alignment {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  width: 60%;
+}
+.game-desc {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+  padding: 10px;
+}
+
+.game-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pictorial-info {
+  display: flex;
+  justify-content: space-between;
+}
+.pictorial-users {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fauser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.famoney {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.pictorial-prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.center-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ff4151;
+  color: white;
+  font-weight: 500;
+  font-size: xx-medium;
+}
+#vcallsheet {
+  background-color: #ff4151;
+}
+
+.live-currentlywinning {
+  display: flex;
+  width: 100%;
+}
+
+.live-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+.align-live {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+#livescore {
+  width: 200px;
+  background-color: #ff4151;
+}
+.btn-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.live-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+.live-score-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.live-win {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: #1c1c1c;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+}
+#count-align {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+.prizealign {
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+#ab {
+  background-color: #1c1c1c;
+  border-top: 1px solid white;
+}
+.table-ranking {
+}
+#table-width {
+  width: 100%;
+}
+td,
+table,
+thead {
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .p-arent {
+    width: 70%;
+    font-size: small;
+  }
+  .baq {
+    font-size: small;
+  }
+  .game-name {
+    font-size: small;
+  }
+  .center-information {
+    height: 20vh;
+  }
+  .live-win {
+    font-size: small;
+  }
+  table {
+    font-size: small;
+  }
+  #vcallsheet {
+    font-size: small;
+  }
+  #livescore {
+    font-size: small;
+  }
+  .game-desc {
+    font-size: small;
+  }
+  #count-align {
+    font-size: small;
+  }
+  .prizealign {
+    font-size: small;
+  }
+  .baq-alignment {
+    width: 69%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .p-arent {
+    width: 70%;
+    font-size: small;
+  }
+  .baq {
+    font-size: small;
+  }
+  .game-name {
+    font-size: small;
+  }
+  .center-information {
+    height: 20vh;
+  }
+  .live-win {
+    font-size: small;
+  }
+  table {
+    font-size: small;
+  }
+  #vcallsheet {
+    font-size: small;
+  }
+  #livescore {
+    font-size: small;
+  }
+  .game-desc {
+    font-size: small;
+  }
+  #count-align {
+    font-size: small;
+  }
+  .prizealign {
+    font-size: small;
+  }
+  .baq-alignment {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .p-arent {
+    width: 70%;
+    font-size: small;
+  }
+  .baq {
+    font-size: small;
+  }
+  .game-name {
+    font-size: small;
+  }
+  .center-information {
+    height: 20vh;
+  }
+  .live-win {
+    font-size: small;
+  }
+  table {
+    font-size: small;
+  }
+  #vcallsheet {
+    font-size: small;
+  }
+  #livescore {
+    font-size: small;
+  }
+  .game-desc {
+    font-size: small;
+  }
+  #count-align {
+    font-size: small;
+  }
+  .prizealign {
+    font-size: small;
+  }
+  .baq-alignment {
+    width: 73%;
+  }
+}

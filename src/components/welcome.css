@@ -1,0 +1,203 @@
+.wrap {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+.pah-pah {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+.welcomebox {
+  width: 40vw;
+  height: 40vw;
+  background-color: #262925;
+  align-items: center;
+}
+
+.aligndescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logolinks {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#links {
+  font-weight: 10;
+  font-size: small;
+  color: #a3aab5;
+}
+
+.letsplay {
+  color: white;
+  background-color: turquoise;
+  width: 25vw;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.video {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .welcomebox {
+    font-size: smaller;
+    height: 100vh;
+    width: 70vw;
+    background-color: #262925;
+  }
+  .aligndescription {
+    font-size: smaller;
+  }
+  .description {
+    font-size: smaller;
+  }
+  .letsplay {
+    font-size: smaller;
+  }
+  #desc {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logolinks {
+    width: 80vw;
+    font-size: smaller;
+  }
+  .title {
+    font-size: xx-small;
+  }
+  #links {
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .welcomebox {
+    font-size: smaller;
+    height: 100vh;
+    width: 50vw;
+    background-color: #262925;
+  }
+  .aligndescription {
+    font-size: smaller;
+  }
+  .description {
+    font-size: smaller;
+  }
+  .letsplay {
+    font-size: smaller;
+  }
+  #desc {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logolinks {
+    width: 55vw;
+
+    align-items: center;
+    font-size: smaller;
+  }
+  .title {
+    font-size: xx-small;
+  }
+  #links {
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .welcomebox {
+    font-size: small;
+    height: 100vh;
+    width: 50vw;
+    background-color: #262925;
+  }
+  .aligndescription {
+    font-size: small;
+  }
+  .description {
+    font-size: small;
+  }
+  .letsplay {
+    font-size: small;
+  }
+  #desc {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logolinks {
+    width: 55vw;
+
+    align-items: center;
+    font-size: small;
+  }
+  .title {
+    font-size: xx-small;
+  }
+  #links {
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .welcomebox {
+    font-size: medium;
+    height: 100vh;
+    width: 50vw;
+    background-color: #262925;
+  }
+  .aligndescription {
+    font-size: medium;
+  }
+  .description {
+    font-size: medium;
+  }
+  .letsplay {
+    font-size: medium;
+  }
+  #desc {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logolinks {
+    width: 55vw;
+
+    align-items: center;
+    font-size: medium;
+  }
+  .title {
+    font-size: xx-medium;
+  }
+  #links {
+    font-size: medium;
+  }
+}

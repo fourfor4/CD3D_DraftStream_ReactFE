@@ -1,0 +1,301 @@
+.callsheet-parent {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  margin-top: 4vh;
+  margin-left: 5vh;
+}
+.left-contain {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.right-contain {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.left-center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.my-sheet {
+  display: flex;
+  flex-direction: column;
+}
+.col-space-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.back-tournamentname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+.backkbutton {
+  display: inline-block;
+  justify-content: flex-start;
+}
+.callsheetname {
+  display: flex;
+  justify-content: center;
+}
+.tournamentname-budget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff4151;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  height: 15vh;
+}
+
+.tiebreaker {
+  display: flex;
+  flex-direction: column;
+}
+.tiebreaker-question {
+  background-color: #1b1c1f;
+  width: 50%;
+  color: white;
+  font-size: medium;
+}
+.tiebraker1answer {
+  width: 50%;
+}
+.tiebraker2answer {
+  width: 50%;
+}
+.tiebreaker1 {
+  display: flex;
+}
+.tiebreaker2 {
+  display: flex;
+}
+.my-tournamentname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff4151;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  height: 15vh;
+}
+.my-callsheet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.my-budget {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tournamentname-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.budget-tournament {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#table-prop {
+  color: white;
+  background-color: #1b1c1f;
+  font-size: small;
+}
+table {
+  width: 100%;
+}
+/* table,
+th,
+td {
+  padding: 5px;
+} */
+.searchbar {
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 10vh;
+}
+.Searchbar-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Search-field {
+  display: flex;
+}
+#inp {
+  border: thin;
+}
+
+#green {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#budget {
+  color: green;
+}
+#red {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.tr-styling {
+  font-size: small;
+}
+.rulez {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  background-color: #1b1c1f;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+}
+.rulez-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rulez-row-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rule1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  font-weight: bold;
+}
+.rule2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  font-weight: bold;
+}
+.rule3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  font-weight: bold;
+}
+tr:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: #1c1c1c;
+}
+thead,
+td {
+  text-align: center;
+}
+#thead-width {
+  background-color: #1c1c1c;
+}
+.submitcallsheetbuttonalign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1b1c1f;
+  border: 1px solid #1b1c1f;
+}
+.submitcallsheet {
+  background-color: turquoise;
+  color: white;
+  font-size: small;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .callsheet-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  }
+  /* .left-contain {
+    width: 100%;
+  } */
+  .tournamentname-budget {
+    width: 70vw;
+  }
+  /* #tableleft {
+    width: 70vw;
+  } */
+  /* .space-center {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    justify-content: center;
+  } */
+  /* .bq-name {
+    width: 100%;
+    height: 50%;
+  } */
+
+  /* table,
+  td,
+  tr,
+  th {
+    width: 100%;
+    text-align: center;
+  } */
+
+  .back-tournamentname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+  }
+  .submitcallsheet {
+    background-color: turquoise;
+    color: white;
+    font-size: small;
+    width: 30vw;
+  }
+  /* .right-contain {
+    display: flex;
+    flex-direction: column;
+  ;
+  } */
+  #table-prop {
+    width: 10vw;
+    justify-content: center;
+  }
+  .tableright {
+    height: 50vh;
+  }
+}

@@ -1,0 +1,26 @@
+.login-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(/assets/cinemadraft-bg.png);
+}
+
+.child-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(/assets/cinemadraft-bg.png);
+}
